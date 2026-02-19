@@ -1,0 +1,16 @@
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.photo img {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.bio {
+  max-width: 600px;
+}
